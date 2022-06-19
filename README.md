@@ -27,13 +27,11 @@ This project aims to make understand a bit deeper two concepts that already know
 
 <p><ins>Bonus part</ins></p>
 <p>You will get extra points if you:</p>
-<p>• Handle multiple pipes.</p>
-<p>This:</p>
+<p>• Handle multiple pipes. This:</p>
 <p>$> ./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2</p>
 <p>Should behave like:</p>
 <p>< file1 cmd1 | cmd2 | cmd3 ... | cmdn > file2</p>
-<p>• Support « and » when the first parameter is "here_doc".</p>
-<p>This:</p>
+<p>• Support « and » when the first parameter is "here_doc". This:</p>
 <p>$> ./pipex here_doc LIMITER cmd cmd1 file</p>
 <p>Should behave like:</p>
 <p>cmd << LIMITER | cmd1 >> file</p>
