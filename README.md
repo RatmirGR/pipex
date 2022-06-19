@@ -1,10 +1,10 @@
 <h3>Project name:</h3>
 <h2> pipex</h2>
 
-<b>Project description:</b>
+<p><ins>Project description:</ins></p>
 This project aims to make understand a bit deeper two concepts that already know: the redirections and the pipes.
-
-<b>Task:</b>
+<p></p>
+<p><ins>Task:</ins></p>
 <p>Your program will be executed as follows:</p>
 <p>./pipex file1 cmd1 cmd2 file2</p>
 <p>It must take 4 arguments:</p>
@@ -25,7 +25,7 @@ This project aims to make understand a bit deeper two concepts that already know
 <p>• If you have any doubt, handle the errors like the shell command:</p>
 <p>< file1 cmd1 | cmd2 > file2</p>
 
-<p>Bonus part</p>
+<p><ins>Bonus part</ins></p>
 <p>You will get extra points if you:</p>
 <p>• Handle multiple pipes.</p>
 <p>This:</p>
