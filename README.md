@@ -25,3 +25,15 @@ This project aims to make understand a bit deeper two concepts that already know
 <p>• If you have any doubt, handle the errors like the shell command:</p>
 <p>< file1 cmd1 | cmd2 > file2</p>
 
+<p>Bonus part</p>
+<p>You will get extra points if you:</p>
+<p>• Handle multiple pipes.</p>
+<p>This:</p>
+<p>$> ./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2</p>
+<p>Should behave like:</p>
+<p>< file1 cmd1 | cmd2 | cmd3 ... | cmdn > file2</p>
+<p>• Support « and » when the first parameter is "here_doc".</p>
+<p>This:</p>
+<p>$> ./pipex here_doc LIMITER cmd cmd1 file</p>
+<p>Should behave like:</p>
+<p>cmd << LIMITER | cmd1 >> file</p>
